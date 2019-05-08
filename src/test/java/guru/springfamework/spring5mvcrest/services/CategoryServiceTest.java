@@ -1,9 +1,11 @@
-package guru.springfamework.services;
+package guru.springfamework.spring5mvcrest.services;
 
 import guru.springfamework.api.v1.mapper.CategoryMapper;
 import guru.springfamework.api.v1.model.CategoryDTO;
 import guru.springfamework.domain.Category;
 import guru.springfamework.repositories.CategoryRepository;
+import guru.springfamework.services.CategoryService;
+import guru.springfamework.services.CategoryServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
